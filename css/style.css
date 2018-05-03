@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:800i');
+@font-face {
+  font-family: colfax;
+  src: url(Colfax-MediumItalic.ttf);
+}
+body{
+  height: 300px;
+  width: 100%;
+  margin: 0;
+  font-family: 'colfax', cursive;
+  background-color: #2D2332;
+}
+.text-wrapper{
+  margin: 20% auto;
+  width: 320px;
+  height: 120px;
+}
+.text{
+  width: inherit;
+  height: inherit;
+}
+.tp {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  fill-opacity: 0;
+}
